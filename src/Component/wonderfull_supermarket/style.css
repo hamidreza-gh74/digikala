@@ -1,0 +1,23 @@
+.circle_4,
+.circle_5,
+.circle_6 {
+  display: none;
+}
+
+@media screen and (min-width: 1150px) {
+  .circle_4 {
+    display: flex;
+}
+}
+
+@media screen and (min-width: 1250px) {
+  .circle_5 {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .circle_6 {
+    display: flex;
+  }
+}

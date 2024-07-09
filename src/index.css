@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "regular";
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  background-color: white;
+  max-width: 1700px;
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../public/font/bold/IRANYekanWeb-Bold.eot");
+  src: url("../public/font/bold/IRANYekanWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/font/bold/IRANYekanWeb-Bold.woff2") format("woff2"),
+    url("../public/font/bold/IRANYekanWeb-Bold.woff") format("woff"),
+    url("../public/font/bold/IRANYekanWeb-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../public/font/regular/IRANYekanWeb.eot");
+  src: url("../public/font/regular/IRANYekanWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/font/regular/IRANYekanWeb.woff2") format("woff2"),
+    url("../public/font/regular/IRANYekanWeb.woff") format("woff"),
+    url("../public/font/regular/IRANYekanWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

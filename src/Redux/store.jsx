@@ -18,6 +18,8 @@ import Selection_product_for_discount_Slice from "./Selection_product_for_discou
 import Magazine_Slice from "./Magazine/Magazine_Slice";
 import Menu_Slice from "./Menu/Menu_Slice";
 import Manage_product_Slice from "./Manage_product/Manage_product_Slice";
+import Footer_Slice from "./Footer/Footer_Slice";
+import Footer_accor_Slice from "./Footer_accor/Footer_accor_Slice";
 
 const store = configureStore({
   reducer: {
@@ -38,6 +40,8 @@ const store = configureStore({
     magazine: Magazine_Slice,
     menu: Menu_Slice,
     manage_product: Manage_product_Slice,
+    footer: Footer_Slice,
+    footer_accor: Footer_accor_Slice,
   },
 });
 

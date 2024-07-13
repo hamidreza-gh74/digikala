@@ -15,7 +15,7 @@ const Slider_first = () => {
   };
 
   return (
-    <div className="w-[100%] h-[156px] flex justify-center mob:mt-[100px]  des:mt-[175px]">
+    <div className="w-[100%] h-[156px] flex justify-center mob:mt-[140px]  des:mt-[175px]">
       <div className="w-[100%] h-[156px]  px-[16px]  max-w-[1336px]">
         <div className="w-[100%] h-[100%]  relative">
           <div

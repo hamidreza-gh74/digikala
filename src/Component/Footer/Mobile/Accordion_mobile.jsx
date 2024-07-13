@@ -5,7 +5,7 @@ const Accordion = ({ item, selected, sample, setSelect }) => {
   return (
     <div className="w-[100%] flex flex-col justify-between items-center py-[12px] border-b border-solid ">
       <div
-        className="acc_main flex  w-[100%] justify-between items-center"
+        className="acc_main flex  w-[100%] justify-between items-center cursor-pointer"
         onClick={() => {
           setSelect(
             selected == `carousel-${item.id}` ? "" : `carousel-${item.id}`
